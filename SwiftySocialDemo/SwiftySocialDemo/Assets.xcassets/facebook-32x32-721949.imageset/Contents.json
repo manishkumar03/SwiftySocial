@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "facebook-32x32-721949.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

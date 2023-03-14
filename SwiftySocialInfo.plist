@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- ******* Google ******* -->
+	<key>GOOGLE_CLIENT_ID</key>
+	<string>dummy</string>
+	<key>GOOGLE_CALLBACK_SCHEME</key>
+	<string>dummy</string>
+    <key>GOOGLE_CALLBACK_HOST</key>
+    <string>dummy</string>
+    <!-- ******* Github ******* -->
+	<key>GITHUB_CLIENT_ID</key>
+	<string>dummy</string>
+	<key>GITHUB_CALLBACK_SCHEME</key>
+	<string>dummy</string>
+	<key>GITHUB_CLIENT_SECRET</key>
+	<string>dummy</string>
+    <key>GITHUB_CALLBACK_HOST</key>
+    <string>dummy</string>
+    <!-- ******* Facebook ******* -->
+	<key>FACEBOOK_APP_ID</key>
+	<string>dummy</string>
+	<key>FACEBOOK_APP_SECRET</key>
+	<string>dummy</string>
+    <key>FACEBOOK_CALLBACK_HOST</key>
+    <string>dummy</string>
+    <!-- ******* Reddit ******* -->
+	<key>REDDIT_CLIENT_ID</key>
+	<string>dummy</string>
+	<key>REDDIT_CALLBACK_SCHEME</key>
+	<string>dummy</string>
+    <key>REDDIT_CALLBACK_HOST</key>
+    <string>dummy</string>
+    <!-- ******* Dropbox ******* -->
+	<key>DROPBOX_CLIENT_ID</key>
+	<string>dummy</string>
+	<key>DROPBOX_CLIENT_SECRET</key>
+	<string>dummy</string>
+	<key>DROPBOX_CALLBACK_SCHEME</key>
+	<string>dummy</string>
+    <key>DROPBOX_CALLBACK_HOST</key>
+    <string>dummy</string>
+    <!-- ******* LinkedIn ******* -->
+	<key>LINKEDIN_CLIENT_ID</key>
+	<string>dummy</string>
+	<key>LINKEDIN_CLIENT_SECRET</key>
+	<string>dummy</string>
+	<key>LINKEDIN_CALLBACK_SCHEME</key>
+	<string>dummy</string>
+    <key>LINKEDIN_CALLBACK_HOST</key>
+    <string>www.dummy.com</string>
+    <!-- ******* Microsoft ******* -->
+	<key>MICROSOFT_CLIENT_ID</key>
+	<string>dummy</string>
+	<key>MICROSOFT_CALLBACK_SCHEME</key>
+	<string>dummy</string>
+    <key>MICROSOFT_CALLBACK_HOST</key>
+    <string>dummy</string>
+</dict>
+</plist>

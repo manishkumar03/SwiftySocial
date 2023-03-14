@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SwiftySocialDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zs1-Kb-hlA">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QwR-5c-750" userLabel="ContentView">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="557.33333333333337"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="3bh-2b-RKW">
+                                                <rect key="frame" x="16" y="31.999999999999972" width="361" height="509.33333333333326"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Swifty Social" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Zw-ie-rhO">
+                                                        <rect key="frame" x="0.0" y="0.0" width="361" height="49.333333333333336"/>
+                                                        <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="36"/>
+                                                        <color key="textColor" systemColor="linkColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UT1-Da-RR6">
+                                                        <rect key="frame" x="0.0" y="65.333333333333343" width="361" height="46"/>
+                                                        <color key="tintColor" red="0.30498999111431158" green="0.25217395007268667" blue="0.084469883419050942" alpha="0.66554447096221303" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" image="google-32x32-6297223" imagePlacement="leading" title="Login with Google" imagePadding="16">
+                                                            <fontDescription key="titleFontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
+                                                            <color key="baseBackgroundColor" red="0.5134534436" green="0.42453715479999998" blue="0.14220582239999999" alpha="0.66554447100000003" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="loginWithGoogle" destination="BYZ-38-t0r" eventType="touchUpInside" id="g66-Yc-mbk"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hDd-0F-ZXh">
+                                                        <rect key="frame" x="0.0" y="127.33333333333334" width="361" height="46"/>
+                                                        <color key="tintColor" systemColor="systemBackgroundColor"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" image="facebook-32x32-721949" title="Login with Facebook" imagePadding="16">
+                                                            <fontDescription key="titleFontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
+                                                            <color key="baseBackgroundColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="0.70572532600000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="loginWithFacebook" destination="BYZ-38-t0r" eventType="touchUpInside" id="YIX-xx-7ko"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ku0-l6-XbV">
+                                                        <rect key="frame" x="0.0" y="189.33333333333331" width="361" height="46"/>
+                                                        <color key="tintColor" systemColor="systemBackgroundColor"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" image="github-32x32-721954" title="Login with Github" imagePadding="16">
+                                                            <fontDescription key="titleFontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
+                                                            <color key="baseBackgroundColor" red="0.76859849690000004" green="0.2853929067" blue="0.63439573739999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="loginWithGithub" destination="BYZ-38-t0r" eventType="touchUpInside" id="UeM-ke-Lsi"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A8t-Tq-vOk">
+                                                        <rect key="frame" x="0.0" y="251.33333333333331" width="361" height="46"/>
+                                                        <color key="tintColor" systemColor="systemBackgroundColor"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" image="reddit-32x32-721967" title="Login with Reddit" imagePadding="16">
+                                                            <fontDescription key="titleFontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
+                                                            <color key="baseBackgroundColor" red="0.4042886047" green="0.1158086742" blue="0.15060378690000001" alpha="0.79234023320000002" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="loginWithReddit" destination="BYZ-38-t0r" eventType="touchUpInside" id="Z1u-h8-Aaf"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="xZA-aD-Pg3">
+                                                        <rect key="frame" x="0.0" y="313.33333333333331" width="361" height="46"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="tintColor" red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="0.75473396145567606" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" image="dropbox-32x32-721946" title="Login with Dropbox" imagePadding="16">
+                                                            <fontDescription key="titleFontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
+                                                            <color key="baseBackgroundColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="0.70572532600000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="loginWithDropbox" destination="BYZ-38-t0r" eventType="touchUpInside" id="0YZ-NF-bla"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="FxE-c9-Zul">
+                                                        <rect key="frame" x="0.0" y="375.33333333333331" width="361" height="46"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="tintColor" systemColor="systemBackgroundColor"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" image="linkedin-32x32-721962" title="Login with LinkedIn" imagePadding="16">
+                                                            <fontDescription key="titleFontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
+                                                            <color key="baseBackgroundColor" red="0.60170398349999998" green="0.82588974469999998" blue="0.60087135140000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="loginWithLinkedIn" destination="BYZ-38-t0r" eventType="touchUpInside" id="zDM-5c-BXA"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="kK2-uS-IcM">
+                                                        <rect key="frame" x="0.0" y="437.33333333333331" width="361" height="46"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="tintColor" systemColor="systemBackgroundColor"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" image="microsoft-32x32-2944995" title="Login with Microsoft" imagePadding="16">
+                                                            <fontDescription key="titleFontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
+                                                            <color key="baseBackgroundColor" systemColor="linkColor"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="loginWithMicrosoft" destination="BYZ-38-t0r" eventType="touchUpInside" id="dyA-oh-32B"/>
+                                                        </connections>
+                                                    </button>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yRZ-6v-9Ig" userLabel="Spacer View">
+                                                        <rect key="frame" x="0.0" y="499.33333333333337" width="361" height="10"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="10" placeholder="YES" id="mgr-wd-dIf"/>
+                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="uh4-cd-QUH"/>
+                                                        </constraints>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="3bh-2b-RKW" firstAttribute="leading" secondItem="QwR-5c-750" secondAttribute="leading" constant="16" id="Laj-Gh-Ajz"/>
+                                            <constraint firstAttribute="trailing" secondItem="3bh-2b-RKW" secondAttribute="trailing" constant="16" id="UOq-IF-PYS"/>
+                                            <constraint firstItem="3bh-2b-RKW" firstAttribute="top" secondItem="QwR-5c-750" secondAttribute="top" constant="32" id="aPH-lr-G9E"/>
+                                            <constraint firstAttribute="bottom" secondItem="3bh-2b-RKW" secondAttribute="bottom" constant="16" id="teD-li-jYo"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="QwR-5c-750" firstAttribute="leading" secondItem="n16-hE-kXh" secondAttribute="leading" id="PIL-wr-Brk"/>
+                                    <constraint firstItem="QwR-5c-750" firstAttribute="bottom" secondItem="n16-hE-kXh" secondAttribute="bottom" id="ckI-d2-NAZ"/>
+                                    <constraint firstItem="QwR-5c-750" firstAttribute="width" secondItem="QEd-Rc-S1U" secondAttribute="width" id="hgD-Ki-OVT"/>
+                                    <constraint firstItem="QwR-5c-750" firstAttribute="top" secondItem="n16-hE-kXh" secondAttribute="top" id="tJu-mE-GRj"/>
+                                    <constraint firstItem="QwR-5c-750" firstAttribute="trailing" secondItem="n16-hE-kXh" secondAttribute="trailing" id="xEl-hO-ghw"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="n16-hE-kXh"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="QEd-Rc-S1U"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="zs1-Kb-hlA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Ret-Ku-ueS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zs1-Kb-hlA" secondAttribute="bottom" id="cHy-w3-luo"/>
+                            <constraint firstItem="zs1-Kb-hlA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="jgb-3o-Lqk"/>
+                            <constraint firstItem="zs1-Kb-hlA" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="zep-l7-Jwl"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="-28"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dropbox-32x32-721946" width="32" height="32"/>
+        <image name="facebook-32x32-721949" width="32" height="32"/>
+        <image name="github-32x32-721954" width="32" height="32"/>
+        <image name="google-32x32-6297223" width="32" height="32"/>
+        <image name="linkedin-32x32-721962" width="32" height="32"/>
+        <image name="microsoft-32x32-2944995" width="32" height="32"/>
+        <image name="reddit-32x32-721967" width="32" height="32"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
