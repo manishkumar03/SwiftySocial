@@ -49,6 +49,18 @@ SwiftySocial(for: .google).login { result in
 }
 ```
 
+The final response object `SwiftySocialUser` has the following fields:
+
+```swift
+public struct SwiftySocialUser {
+    public let userId: String
+    public let userName: String
+    public let email: String?
+    public let accessToken: String
+    public let refreshToken: String?
+}
+```
+
 ## Providers
 The SDK supports the following providers. More providers will be added over time.
 
