@@ -13,7 +13,7 @@ Since OAuth is an open standard, we can provide support for these OAuth provider
 
  
 <p align="center">
-  <a href="#usage">Usage</a> • <a href="#providers">Providers</a> •  <a href="#sample-app">Sample App</a> • <a href="#installation">Installation</a> • <a href="#license">License</a>
+  <a href="#usage">Usage</a> • <a href="#providers">Providers</a> •  <a href="#sample-app">Sample App</a> • <a href="#installation">Installation</a> • <a href="#other-projects">Other Projects</a> • <a href="#license">License</a>
 </p>
 
 ## Usage
@@ -79,6 +79,16 @@ The accompanying demo app `SwiftySocialDemo` implements a few of these providers
 <img src="https://github.com/manishkumar03/SwiftySocial/blob/main/Resources/SwiftySocial_DemoApp_Screenshot.png" width="300px"/><br/>
 </p>
 
+## Other Projects
+Some of these libraries have been around for a long time and have been battle-tested.
+
+- [Heimdallr.swift](https://github.com/trivago/Heimdallr.swift) - Easy to use OAuth 2 library for iOS, written in Swift.
+- [InstagramSimpleOAuth](https://github.com/rbaumbach/InstagramSimpleOAuth) - A quick and simple way to authenticate an Instagram user in your iPhone or iPad app.
+- [LinkedInSignIn](https://github.com/serhii-londar/LinkedInSignIn) - Simple view controller to login and retrieve access token from LinkedIn.
+- [OAuthSwift](https://github.com/OAuthSwift/OAuthSwift) - Swift based OAuth library for iOS- [OAuthSwift](https://github.com/OAuthSwift/OAuthSwift) - Swift based OAuth library for iOS
+- [OAuth2](https://github.com/p2/OAuth2) - OAuth2 framework for macOS and iOS, written in Swift.
+- [ReCaptcha](https://github.com/fjcaetano/ReCaptcha) - (In)visible ReCaptcha for iOS.
+- [SwiftyOAuth](https://github.com/delba/SwiftyOAuth) - A simple OAuth library for iOS with a built-in set of providers.
 
 ## License
 
