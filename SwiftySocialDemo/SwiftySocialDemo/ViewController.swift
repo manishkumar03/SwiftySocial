@@ -28,19 +28,6 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func loginWithFacebook() {
-        SwiftySocial(for: .facebook).login { result in
-            DispatchQueue.main.async {
-                switch result {
-                    case .success(let user):
-                        self.showAlert(user: user)
-                    case .failure(let error):
-                        print(error.description)
-                }
-            }
-        }
-    }
-    
     @IBAction func loginWithGithub() {
         SwiftySocial(for: .github).login { result in
             DispatchQueue.main.async {
