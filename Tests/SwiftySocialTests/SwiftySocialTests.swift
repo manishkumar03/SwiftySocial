@@ -42,17 +42,17 @@ final class SwiftySocialTests: XCTestCase {
     }
     
     func testSSConfigValues_getGoogleClientID() {
-        let sut = SSConfig(isUnderTesting: true, infoDictionary: self.infoDictionary)
+        let sut = SSConfig(infoDictionary: self.infoDictionary)
         XCTAssertEqual(sut.googleClientID, "dummyGoogleClientID")        
     }
     
     func testSSConfigValues_getGoogleCallbackScheme() {
-        let sut = SSConfig(isUnderTesting: true, infoDictionary: self.infoDictionary)
+        let sut = SSConfig(infoDictionary: self.infoDictionary)
         XCTAssertEqual(sut.getCallbackScheme(socialLoginProvider: .google), "dummyGoogleCallbackScheme")
     }
     
     func testSSConfigValues_getFacebookCallbackHost() {
-        let sut = SSConfig(isUnderTesting: true, infoDictionary: self.infoDictionary)
+        let sut = SSConfig(infoDictionary: self.infoDictionary)
         XCTAssertEqual(sut.getOauthCallbackHost(socialLoginProvider: .facebook), "fbdummyFacebookAppID")
     }
 }

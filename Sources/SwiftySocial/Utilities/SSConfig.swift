@@ -11,8 +11,8 @@ class SSConfig {
     static let shared = SSConfig()
     var infoDictionary: [String: Any] = [:]
     
-    init(isUnderTesting: Bool = false, infoDictionary: [String: Any] = [:]) {
-        if isUnderTesting {
+    init(infoDictionary: [String: Any]? = nil) {
+        if let infoDictionary {
             self.infoDictionary = infoDictionary
         } else {
             guard let plistPath = Bundle.main.path(forResource: "SwiftySocialInfo", ofType: "plist"), let plistDict = NSDictionary(contentsOfFile: plistPath) as? [String: AnyObject] else {
