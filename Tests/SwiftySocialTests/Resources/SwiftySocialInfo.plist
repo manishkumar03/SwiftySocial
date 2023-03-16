@@ -11,44 +11,44 @@
 	<key>GITHUB_CLIENT_ID</key>
 	<string>dummyGithubClientID</string>
 	<key>GITHUB_CALLBACK_SCHEME</key>
-	<string>unitTesting</string>
+	<string>dummyGithubClientScheme</string>
 	<key>GITHUB_CLIENT_SECRET</key>
-	<string>unitTesting</string>
+	<string>dummyGithubClientSecret</string>
 	<key>GITHUB_CALLBACK_HOST</key>
-	<string>unitTesting</string>
+	<string>dummyGithubCallbackHost</string>
 	<key>FACEBOOK_APP_ID</key>
 	<string>dummyFacebookAppID</string>
 	<key>FACEBOOK_APP_SECRET</key>
-	<string>unitTesting</string>
+	<string>dummyFacebookAppSecret</string>
 	<key>FACEBOOK_CALLBACK_HOST</key>
 	<string>dummyFacebookCallbackHost</string>
 	<key>REDDIT_CLIENT_ID</key>
-	<string>unitTesting</string>
+	<string>dummyRedditClientID</string>
 	<key>REDDIT_CALLBACK_SCHEME</key>
-	<string>unitTesting</string>
+	<string>dummyRedditCallbackScheme</string>
 	<key>REDDIT_CALLBACK_HOST</key>
-	<string>unitTesting</string>
+	<string>dummyRedditCallbackHost</string>
 	<key>DROPBOX_CLIENT_ID</key>
-	<string>unitTesting</string>
+	<string>dummyDropboxClientID</string>
 	<key>DROPBOX_CLIENT_SECRET</key>
-	<string>unitTesting</string>
+	<string>dummyDropboxClientSecret</string>
 	<key>DROPBOX_CALLBACK_SCHEME</key>
-	<string>unitTesting</string>
+	<string>dummyDropboxCallbackScheme</string>
 	<key>DROPBOX_CALLBACK_HOST</key>
-	<string>unitTesting</string>
+	<string>dummyDropboxCallbackHost</string>
 	<key>LINKEDIN_CLIENT_ID</key>
-	<string>unitTesting</string>
+	<string>dummyLinkedInClientID</string>
 	<key>LINKEDIN_CLIENT_SECRET</key>
-	<string>unitTesting</string>
+	<string>dummyLinkedInClientSecret</string>
 	<key>LINKEDIN_CALLBACK_SCHEME</key>
-	<string>unitTesting</string>
+	<string>dummyLinkedInCallbackScheme</string>
 	<key>LINKEDIN_CALLBACK_HOST</key>
-	<string>www.unitTesting.com</string>
+	<string>dummyLinkedInCallbackHost</string>
 	<key>MICROSOFT_CLIENT_ID</key>
-	<string>unitTesting</string>
+	<string>dummyMicrosoftClientID</string>
 	<key>MICROSOFT_CALLBACK_SCHEME</key>
-	<string>unitTesting</string>
+	<string>dummyMicrosoftCallbackScheme</string>
 	<key>MICROSOFT_CALLBACK_HOST</key>
-	<string>unitTesting</string>
+	<string>dummyMicrosoftCallbackHost</string>
 </dict>
 </plist>
