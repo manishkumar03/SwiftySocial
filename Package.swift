@@ -18,8 +18,11 @@ let package = Package(
         .target(
             name: "SwiftySocial",
             dependencies: []),
+
         .testTarget(
             name: "SwiftySocialTests",
-            dependencies: ["SwiftySocial"]),
+            dependencies: ["SwiftySocial"],
+            resources: [.process("Resources")]
+        )
     ]
 )

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GOOGLE_CLIENT_ID</key>
+	<string>dummyGoogleClientID</string>
+	<key>GOOGLE_CALLBACK_SCHEME</key>
+	<string>dummyGoogleCallbackScheme</string>
+	<key>GOOGLE_CALLBACK_HOST</key>
+	<string>oauthcallback</string>
+	<key>GITHUB_CLIENT_ID</key>
+	<string>dummyGithubClientID</string>
+	<key>GITHUB_CALLBACK_SCHEME</key>
+	<string>unitTesting</string>
+	<key>GITHUB_CLIENT_SECRET</key>
+	<string>unitTesting</string>
+	<key>GITHUB_CALLBACK_HOST</key>
+	<string>unitTesting</string>
+	<key>FACEBOOK_APP_ID</key>
+	<string>dummyFacebookAppID</string>
+	<key>FACEBOOK_APP_SECRET</key>
+	<string>unitTesting</string>
+	<key>FACEBOOK_CALLBACK_HOST</key>
+	<string>dummyFacebookCallbackHost</string>
+	<key>REDDIT_CLIENT_ID</key>
+	<string>unitTesting</string>
+	<key>REDDIT_CALLBACK_SCHEME</key>
+	<string>unitTesting</string>
+	<key>REDDIT_CALLBACK_HOST</key>
+	<string>unitTesting</string>
+	<key>DROPBOX_CLIENT_ID</key>
+	<string>unitTesting</string>
+	<key>DROPBOX_CLIENT_SECRET</key>
+	<string>unitTesting</string>
+	<key>DROPBOX_CALLBACK_SCHEME</key>
+	<string>unitTesting</string>
+	<key>DROPBOX_CALLBACK_HOST</key>
+	<string>unitTesting</string>
+	<key>LINKEDIN_CLIENT_ID</key>
+	<string>unitTesting</string>
+	<key>LINKEDIN_CLIENT_SECRET</key>
+	<string>unitTesting</string>
+	<key>LINKEDIN_CALLBACK_SCHEME</key>
+	<string>unitTesting</string>
+	<key>LINKEDIN_CALLBACK_HOST</key>
+	<string>www.unitTesting.com</string>
+	<key>MICROSOFT_CLIENT_ID</key>
+	<string>unitTesting</string>
+	<key>MICROSOFT_CALLBACK_SCHEME</key>
+	<string>unitTesting</string>
+	<key>MICROSOFT_CALLBACK_HOST</key>
+	<string>unitTesting</string>
+</dict>
+</plist>

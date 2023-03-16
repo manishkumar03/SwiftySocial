@@ -9,14 +9,19 @@ import Foundation
 
 class SSConfig {
     static let shared = SSConfig()
+    var infoDictionary: [String: Any] = [:]
     
-    lazy var infoDictionary: [String: Any] = {
-        guard let plistPath = Bundle.main.path(forResource: "SwiftySocialInfo", ofType: "plist"), let plistDict = NSDictionary(contentsOfFile: plistPath) as? [String: AnyObject] else {
-            fatalError("Plist file not found")
+    init(isUnderTesting: Bool = false, infoDictionary: [String: Any] = [:]) {
+        if isUnderTesting {
+            self.infoDictionary = infoDictionary
+        } else {
+            guard let plistPath = Bundle.main.path(forResource: "SwiftySocialInfo", ofType: "plist"), let plistDict = NSDictionary(contentsOfFile: plistPath) as? [String: AnyObject] else {
+                fatalError("Plist file not found")
+            }
+            
+            self.infoDictionary = plistDict
         }
-        
-        return plistDict
-    }()
+    }
     
     // MARK: - Client IDs
     lazy var googleClientID: String = {

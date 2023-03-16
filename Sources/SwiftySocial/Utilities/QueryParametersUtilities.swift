@@ -51,7 +51,8 @@ func getQueryComponentValueFromURL(named name: String, in url: URL?) -> String? 
 /// - Parameter parts: Query parameters to be chained together
 /// - Returns: URL-Encoded string
 func createUrlEncodedQueryString(_ parts: [String: String?]) -> String? {
-    return parts.compactMap { key, value -> String? in
+    let sortedParts = parts.sorted(by: { $0.0 < $1.0 })
+    return sortedParts.compactMap { key, value -> String? in
         if let value = value {
             return key + "=" + value
         } else {
